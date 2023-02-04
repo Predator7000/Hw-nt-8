@@ -1,0 +1,159 @@
+body{
+  background-color: #8fabc4;
+}
+
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header__list{
+  position: relative;
+  background-color: blue;
+  padding: 25px 0 25px 15px;
+  display: flex;
+}
+
+.header__list li{
+  color: #fff;
+}
+.header__list li:nth-child(2) {
+  position: absolute;
+  left: 350px;
+  bottom: 30px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.section__container{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 400px;
+}
+
+.section__list{
+  background-color: #fff;
+  position: relative;
+}
+h4{
+  margin: 0 auto;
+  padding: 25px 0;
+  opacity: 0.3;
+  text-align: center;
+}
+
+.section__iteams{
+  margin-left: 25px;
+}
+
+.section__text_box{
+  max-width: 240px;
+  background-color: #a0c7e9;
+  padding: 1px 10px;
+  margin: 0;
+}
+
+h5{
+  margin: 10px;
+}
+
+.section__iteam{
+  margin-left: 80px;
+}
+.section__iteam p{
+  margin-left: 260px;
+}
+
+.section__text_box::before{
+  position: absolute;
+  content: '';
+  left: 6px;
+  top: 118.7px;
+  display: inline-block;
+  border: 10px solid #a0c7e9;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.section__textbox{
+  max-width: 270px;
+  background-color: #9caab6;
+  padding: 1px 15px;
+  margin: 0;
+  text-align: right;
+}
+
+
+.section__textbox::before{
+  position: absolute;
+  content: '';
+  left: 380px;
+  top: 221.8px;
+  display: inline-block;
+  border: 10px solid #9caab6;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.text_box{
+  max-width: 90px;
+  background-color: #a0c7e9;
+  padding: 1px 10px;
+  margin: 0;
+}
+
+.text_box::before{
+  position: absolute;
+  content: '';
+  left: 6px;
+  top: 118.7px;
+  display: inline-block;
+  border: 10px solid #a0c7e9;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.section_textbox{
+  max-width: 190px;
+  background-color: pink;
+  padding: 1px 15px;
+  margin: 0;
+  text-align: right;
+}
+
+.section_iteams{
+  margin-left: 160px;
+}
+
+hr{
+  width: 350px;
+}
+
+.footer__list{
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+input{
+  border: 2px solid transparent;
+  width: 300px;
+  height: 50px;
+}
+
+.send_btn{
+  position: absolute;
+  left: 320px;
+  top: 0px;
+}
+
+button{
+  cursor: pointer;
+  padding: 20px 15px;
+  border: none #fff;
+}
+.bosh{
+  font-family: 'Roboto', sans-serif;
+}
